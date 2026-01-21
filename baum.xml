@@ -1,4 +1,4 @@
-<!-- Baum-Struktur-->
+<!-- Baum-Struktur
 <wurzel>
     <stamm>
         <ast>
@@ -9,4 +9,48 @@
         <ast></ast>
         <ast></ast>
     </stamm>
-</wurzel>
+</wurzel> -->
+
+
+
+<!-- Firma  <firmenname>Wald GmbH</firmenname>-->
+
+<firma>
+    <adresse>
+        <straße>Musterstraße 123</straße>
+        <plz>12345</plz>
+        <ort>Musterstadt</ort>
+    </adresse>  
+
+    <kontakt>
+        <telefon>+49 123 456789</telefon>
+        <email>info@wald.de</email>
+    </kontakt> 
+
+    <Organisation>
+        <Abteilung>
+            <Verwaltung>
+                <Mitarbeiter>
+                    <Name>Anna Müller</Name>
+                    <Position>Leiterin Verwaltung</Position>
+                </Mitarbeiter>
+                <Mitarbeiter>
+                    <Name>Bernd Schmidt</Name>
+                    <Position>Buchhalter</Position>
+                </Mitarbeiter>  
+            </Verwaltung>
+            <Produktion>
+                <Mitarbeiter>
+                    <Name>Claudia Weber</Name>
+                    <Position>Produktionsleiterin</Position>
+                </Mitarbeiter>
+                <Mitarbeiter>
+                    <Name>Dieter Fischer</Name>
+                    <Position>Maschinenführer</Position>
+                </Mitarbeiter>  
+            </Produktion>
+        </Abteilung>
+    </Organisation>
+</firma>
+
+
